@@ -1,0 +1,15 @@
+    # Define explícitamente el punto de entrada del Worker generado por OpenNext
+    main = ".open-next/worker.js"
+
+    name = "vittalias" # Tu nombre de proyecto
+    compatibility_date = "2024-09-23" # Mantén esta fecha por ahora
+    compatibility_flags = [ "nodejs_compat" ]
+
+    # Usa la configuración de [assets] según la documentación de OpenNext
+    [assets]
+    directory = ".open-next/assets"
+    binding = "ASSETS" # Asegura que el worker pueda acceder a los assets
+
+    # Elimina o comenta la sección [site] si la tenías
+    # [site]
+    # bucket = ".open-next/assets"
