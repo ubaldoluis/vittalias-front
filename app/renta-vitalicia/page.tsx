@@ -75,7 +75,7 @@
                   <div className="rounded-full overflow-hidden">
                     {/* Reemplaza el placeholder con tu imagen real */}
                     <Image
-                      src="https://www.fifty-five-plus.com/wp-content/uploads/2020/03/vfvvtyct.png" // Cambia esta ruta a donde guardes tu imagen
+                      src="https://res.cloudinary.com/dlfkgdrbs/image/upload/c_scale,h_200,w_300/v1744664825/FP/np8kpqqmctte1qybbs8t.webp" // Cambia esta ruta a donde guardes tu imagen
                       alt="Persona mayor sonriendo"
                       width={200}
                       height={200}
@@ -244,7 +244,7 @@
         </section>
 
         {/* Contact Form Section */}
-        <section id="contactForm">
+        <section id="contactForm" className="scroll-mt-20">
           <ContactFormSection />
         </section>
 

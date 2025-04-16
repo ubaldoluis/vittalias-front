@@ -61,9 +61,8 @@ export function Footer() {
             <h3 className="font-medium text-sm mb-4 text-white">Dirección</h3>
             <address className="not-italic text-sm text-white/80 space-y-1">
               <p>Vittalias</p>
-              <p>Rambla Catalunya, 98, 5º1ª, 08008, Barcelona.</p>
-              <p>Barcelona</p>
-              <p>08001</p>
+              <p>Rambla Catalunya, 98, 5º1ª</p>
+              <p>08008 Barcelona</p>
               <p>España</p>
             </address>
           </div>

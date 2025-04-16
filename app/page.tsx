@@ -11,6 +11,7 @@ import { HowItWorks } from "@/components/how-it-works"
 import { ProductsSection } from "@/components/products-section"
 import NudaPropiedadSection from '@/components/nuda-propiedad-section'; // <- 1. Importar el nuevo componente
 import TrustSection from '@/components/trust-section'; // <- 1. Importar el nuevo componente
+import FeaturedPostsSection from '@/components/featured-posts-section';
 
 export default function Home() {
   // Sample partner logos - replace with your actual partner logos
@@ -47,11 +48,44 @@ export default function Home() {
     },
   ]
 
+      // --- Datos Simulados para Posts Destacados ---
+      const mainFeaturedPostData = {
+        slug: 'como-escribir-sobre-fotos',
+        imageUrl: 'https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/blog-featured/2/thumbnail.png', // Usa tu imagen
+        imageAlt: 'Persona escribiendo en un portátil con cámara al lado',
+        tag: 'Destacado',
+        title: 'Cómo escribir contenido sobre tus fotografías',
+        date: '2025-04-10', // Formato YYYY-MM-DD es bueno para Date()
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis commodo magna risus maecenas nisl sed cras lacus, vestibulum. Dictum nisi amet.',
+      };
+  
+      const secondaryFeaturedPostsData = [
+        {
+          slug: 'conseguir-75m-serie-b',
+          imageUrl: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', // Usa tus imágenes
+          imageAlt: 'Post secundario 1',
+          title: 'Estamos orgullosos de anunciar $75m en Serie B',
+          date: '2025-03-16',
+          excerpt: 'Libero neque aenean tincidunt nec consequat tempor. Viverra odio id velit adipiscing id. Nisi vestibulum orci eget bibendum dictum.',
+          author: { name: 'Michael Foster', imageUrl: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' }
+        },
+        {
+          slug: 'seo-para-ventas',
+          imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80', // Usa tus imágenes
+          imageAlt: 'Post secundario 2',
+          title: 'Cómo usar SEO para impulsar las ventas',
+          date: '2025-02-12',
+          excerpt: 'Optio sit exercitation et ex ullamco aliquid explicabo. Dolore do ut officia anim non ad eu. Magna laboris incididunt commodo.',
+          author: { name: 'Tom Cook', imageUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80' }
+        },
+      ];
+      // --- Fin Datos Simulados ---
+
   return (
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-white py-12 md:py-16">
+        <section className="bg-white pt-4 pb-12 md:py-16">
           <div className="container mx-auto px-6 md:px-12">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -67,7 +101,7 @@ export default function Home() {
                   <div className="rounded-full overflow-hidden">
                     {/* Reemplaza el placeholder con tu imagen real */}
                     <Image
-                      src="https://us.123rf.com/450wm/fizkes/fizkes2001/fizkes200100100/137052917-disparo-en-la-cabeza-retrato-canoso-anciana-positiva-65-70-a%C3%B1os-descansando-en-el-sof%C3%A1-sonriendo.jpg" // Cambia esta ruta a donde guardes tu imagen
+                      src="https://res.cloudinary.com/dlfkgdrbs/image/upload/v1744801736/FP/se52itj3tymudbw0u6is.webp" // Cambia esta ruta a donde guardes tu imagen
                       alt="Persona mayor sonriendo"
                       width={200}
                       height={200}
@@ -77,7 +111,7 @@ export default function Home() {
                   <div className="rounded-full overflow-hidden mt-8">
                     {/* Puedes mantener esta imagen o también reemplazarla */}
                     <Image
-                      src="https://st5.depositphotos.com/26089870/71314/i/450/depositphotos_713144018-stock-photo-portrait-cheerful-elderly-man-waving.jpg"
+                      src="https://res.cloudinary.com/dlfkgdrbs/image/upload/v1744801748/FP/w6hknyhw49fu5lmyiqob.webp"
                       alt="Caregiver with client"
                       width={200}
                       height={200}
@@ -308,7 +342,7 @@ export default function Home() {
         </section>
 
         {/* Contact Form Section */}
-        <section id="contactForm">
+        <section id="contactForm" className="scroll-mt-20">
           <ContactFormSection />
         </section>
 
@@ -324,6 +358,13 @@ export default function Home() {
         {/* Partner Logos Section */}
         <PartnerLogos logos={partnerLogos} />
 
+        {/* Nueva Sección de Posts Destacados 
+        <FeaturedPostsSection
+          sectionTitle="Nuestro Blog" // O el título que prefieras
+          mainPost={mainFeaturedPostData}
+          secondaryPosts={secondaryFeaturedPostsData as [FeaturedPostItem, FeaturedPostItem]} // Casteo para asegurar el tipo tupla
+        />
+*/}
       </main>
 
   )

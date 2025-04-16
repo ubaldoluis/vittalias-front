@@ -59,7 +59,7 @@
         
         <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-white py-12 md:py-16">
+        <section className="bg-white pt-4 pb-12 md:py-16">
           <div className="container mx-auto px-6 md:px-12">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
@@ -70,7 +70,7 @@
                   Tu casa puede darte más de lo que imaginas.
                 </h2>
               </div>
-              <div className="relative">
+              <div className="relative hidden md:block">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="rounded-full overflow-hidden">
                     {/* Reemplaza el placeholder con tu imagen real */}
@@ -240,7 +240,7 @@
         </section>
 
         {/* Contact Form Section */}
-        <section id="contactForm">
+        <section id="contactForm" className="scroll-mt-20">
           <ContactFormSection />
         </section>
 

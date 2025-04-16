@@ -74,6 +74,7 @@
     @apply bg-background text-foreground;
   }
   html {
+    scroll-padding-top: 12rem; 
     scroll-behavior: smooth; /* Añadimos scroll suave para toda la página */
   }
 }
