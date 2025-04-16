@@ -3926,32 +3926,32 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-      "bytes": 10722,
+      "bytes": 11159,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/vivienda-inversa/page_client-reference-manifest.js": {
-      "bytes": 10966,
+      "bytes": 11403,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page_client-reference-manifest.js": {
-      "bytes": 10955,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/hipoteca-inversa/page_client-reference-manifest.js": {
-      "bytes": 10670,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-      "bytes": 10801,
+      "bytes": 11392,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/quienes-somos/page_client-reference-manifest.js": {
-      "bytes": 10559,
+      "bytes": 10996,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/hipoteca-inversa/page_client-reference-manifest.js": {
+      "bytes": 11107,
+      "imports": [],
+      "format": "cjs"
+    },
+    ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
+      "bytes": 11238,
       "imports": [],
       "format": "cjs"
     },
@@ -3989,6 +3989,11 @@
           "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/renta-vitalicia/page_client-reference-manifest.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/app/quienes-somos/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/quienes-somos/page_client-reference-manifest.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/app/hipoteca-inversa/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/hipoteca-inversa/page_client-reference-manifest.js"
@@ -3997,11 +4002,6 @@
           "path": ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/quienes-somos/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/quienes-somos/page_client-reference-manifest.js"
         }
       ],
       "format": "cjs"
@@ -4023,17 +4023,17 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/134.js": {
-      "bytes": 31604,
+      "bytes": 31600,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/chunks/209.js": {
-      "bytes": 24641,
+    ".open-next/server-functions/default/.next/server/chunks/137.js": {
+      "bytes": 533729,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/chunks/409.js": {
-      "bytes": 532633,
+    ".open-next/server-functions/default/.next/server/chunks/14.js": {
+      "bytes": 16325,
       "imports": [],
       "format": "cjs"
     },
@@ -4048,13 +4048,13 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/chunks/943.js": {
-      "bytes": 14533,
+    ".open-next/server-functions/default/.next/server/chunks/992.js": {
+      "bytes": 23583,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/webpack-runtime.js": {
-      "bytes": 1818,
+      "bytes": 1816,
       "imports": [
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/134.js",
@@ -4062,14 +4062,14 @@
           "original": "./chunks/134.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/chunks/209.js",
+          "path": ".open-next/server-functions/default/.next/server/chunks/137.js",
           "kind": "require-call",
-          "original": "./chunks/209.js"
+          "original": "./chunks/137.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/chunks/409.js",
+          "path": ".open-next/server-functions/default/.next/server/chunks/14.js",
           "kind": "require-call",
-          "original": "./chunks/409.js"
+          "original": "./chunks/14.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/548.js",
@@ -4077,9 +4077,9 @@
           "original": "./chunks/548.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/chunks/943.js",
+          "path": ".open-next/server-functions/default/.next/server/chunks/992.js",
           "kind": "require-call",
-          "original": "./chunks/943.js"
+          "original": "./chunks/992.js"
         }
       ],
       "format": "cjs"
@@ -11352,7 +11352,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/page.js": {
-      "bytes": 34974,
+      "bytes": 34876,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -11434,48 +11434,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/app/vivienda-inversa/page.js": {
-      "bytes": 16159,
-      "imports": [
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
-          "kind": "require-call",
-          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/after-task-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/after-task-async-storage.external.js"
-        },
-        {
-          "path": "path",
-          "kind": "require-call",
-          "external": true
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/action-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
-          "kind": "require-call",
-          "original": "next/dist/server/app-render/work-async-storage.external.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
-          "kind": "require-call",
-          "original": "../../webpack-runtime.js"
-        }
-      ],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js": {
-      "bytes": 16340,
+      "bytes": 16205,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
@@ -11556,8 +11515,49 @@
       ],
       "format": "cjs"
     },
+    ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js": {
+      "bytes": 16404,
+      "imports": [
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+          "kind": "require-call",
+          "original": "next/dist/compiled/next-server/app-page.runtime.prod.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-unit-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/after-task-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/after-task-async-storage.external.js"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/action-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/action-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/node_modules/next/dist/server/app-render/work-async-storage.external.js",
+          "kind": "require-call",
+          "original": "next/dist/server/app-render/work-async-storage.external.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/webpack-runtime.js",
+          "kind": "require-call",
+          "original": "../../webpack-runtime.js"
+        }
+      ],
+      "format": "cjs"
+    },
     ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-      "bytes": 43014,
+      "bytes": 41672,
       "imports": [
         {
           "path": "path",
@@ -11640,14 +11640,14 @@
           "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/vivienda-inversa/page.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js",
-          "kind": "require-call",
-          "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/hipoteca-inversa/page.js",
           "kind": "require-call",
           "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/hipoteca-inversa/page.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js",
+          "kind": "require-call",
+          "original": "/Users/antonioluismartinez/vittalias-front/.open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js"
         }
       ],
       "format": "cjs"
@@ -14204,22 +14204,22 @@
           "bytesInOutput": 880
         },
         ".open-next/server-functions/default/.next/server/app/page_client-reference-manifest.js": {
-          "bytesInOutput": 11928
+          "bytesInOutput": 12411
         },
         ".open-next/server-functions/default/.next/server/app/vivienda-inversa/page_client-reference-manifest.js": {
-          "bytesInOutput": 12192
+          "bytesInOutput": 12675
         },
         ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page_client-reference-manifest.js": {
-          "bytesInOutput": 12180
-        },
-        ".open-next/server-functions/default/.next/server/app/hipoteca-inversa/page_client-reference-manifest.js": {
-          "bytesInOutput": 11885
-        },
-        ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
-          "bytesInOutput": 12021
+          "bytesInOutput": 12663
         },
         ".open-next/server-functions/default/.next/server/app/quienes-somos/page_client-reference-manifest.js": {
-          "bytesInOutput": 11770
+          "bytesInOutput": 12253
+        },
+        ".open-next/server-functions/default/.next/server/app/hipoteca-inversa/page_client-reference-manifest.js": {
+          "bytesInOutput": 12368
+        },
+        ".open-next/server-functions/default/.next/server/app/_not-found/page_client-reference-manifest.js": {
+          "bytesInOutput": 12504
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.js": {
           "bytesInOutput": 17261
@@ -14231,22 +14231,22 @@
           "bytesInOutput": 285
         },
         ".open-next/server-functions/default/.next/server/chunks/134.js": {
-          "bytesInOutput": 35376
+          "bytesInOutput": 35372
         },
-        ".open-next/server-functions/default/.next/server/chunks/209.js": {
-          "bytesInOutput": 33306
+        ".open-next/server-functions/default/.next/server/chunks/137.js": {
+          "bytesInOutput": 740185
         },
-        ".open-next/server-functions/default/.next/server/chunks/409.js": {
-          "bytesInOutput": 738352
+        ".open-next/server-functions/default/.next/server/chunks/14.js": {
+          "bytesInOutput": 18347
         },
         ".open-next/server-functions/default/.next/server/chunks/548.js": {
           "bytesInOutput": 101829
         },
-        ".open-next/server-functions/default/.next/server/chunks/943.js": {
-          "bytesInOutput": 16260
+        ".open-next/server-functions/default/.next/server/chunks/992.js": {
+          "bytesInOutput": 31533
         },
         ".open-next/server-functions/default/.next/server/webpack-runtime.js": {
-          "bytesInOutput": 3110
+          "bytesInOutput": 3109
         },
         ".open-next/server-functions/default/.next/server/pages/_app.js": {
           "bytesInOutput": 5403
@@ -16217,22 +16217,22 @@
           "bytesInOutput": 2292
         },
         ".open-next/server-functions/default/.next/server/app/page.js": {
-          "bytesInOutput": 43334
+          "bytesInOutput": 43238
         },
         ".open-next/server-functions/default/.next/server/app/quienes-somos/page.js": {
           "bytesInOutput": 3879
         },
         ".open-next/server-functions/default/.next/server/app/vivienda-inversa/page.js": {
-          "bytesInOutput": 18989
-        },
-        ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js": {
-          "bytesInOutput": 19216
+          "bytesInOutput": 19037
         },
         ".open-next/server-functions/default/.next/server/app/hipoteca-inversa/page.js": {
           "bytesInOutput": 19149
         },
+        ".open-next/server-functions/default/.next/server/app/renta-vitalicia/page.js": {
+          "bytesInOutput": 19282
+        },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-          "bytesInOutput": 39524
+          "bytesInOutput": 38354
         },
         ".open-next/server-functions/default/node_modules/next/dist/lib/interop-default.js": {
           "bytesInOutput": 470
@@ -16355,7 +16355,7 @@
           "bytesInOutput": 105117
         }
       },
-      "bytes": 12920654
+      "bytes": 12924541
     }
   }
 }
